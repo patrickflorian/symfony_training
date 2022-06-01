@@ -1,0 +1,9 @@
+index:
+    path: /post_detail/{name}
+    controller: App\Controller\PostController::detail
+create:
+    path: /post/create/{name}
+    controller: App\Controller\PostController::create
+
+
+
